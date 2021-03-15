@@ -23,7 +23,13 @@ function TweetBox() {
           placeholder="Optional: Enter image URL"
           type="text"
         />
-        <Button className="tweetBox__tweetButton">Tweet</Button>
+        <Button
+          onClick={sendTweet}
+          type="submit"
+          className="tweetBox__tweetButton"
+        >
+          Tweet
+        </Button>
       </form>
     </div>
   );
