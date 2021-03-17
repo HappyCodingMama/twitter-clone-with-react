@@ -30,7 +30,7 @@ function Post({ displayName, username, verified, text, image, avatar }) {
             <p>{text}</p>
           </div>
         </div>
-        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/19/10/elon-musk-spacex-starship-moon.jpg?width=982&height=726&auto=webp&quality=75" />
+        <img src={image} />
         <div className="post__footer">
           <ChatBubbleOutline fontSize="small" />
           <Repeat fontSize="small" />
