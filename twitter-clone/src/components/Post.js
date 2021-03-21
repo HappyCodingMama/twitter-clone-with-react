@@ -7,12 +7,13 @@ import {
   FavoriteBorder,
   Publish,
 } from "@material-ui/icons";
+import FlipMove from "react-flip-move";
 import "./Post.css";
 
 const Post = forwardRef(
-  ({ displayName, username, verified, text, image, avatar }) => {
+  ({ displayName, username, verified, text, image, avatar }, ref) => {
     return (
-      <div className="post">
+      <div className="post" ref={ref}>
         <div className="post__avatar">
           <Avatar src={avatar} />{" "}
         </div>
