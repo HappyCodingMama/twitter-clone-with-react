@@ -7,7 +7,7 @@ import {
   FavoriteBorder,
   Publish,
 } from "@material-ui/icons";
-import FlipMove from "react-flip-move";
+
 import "./Post.css";
 
 const Post = forwardRef(
