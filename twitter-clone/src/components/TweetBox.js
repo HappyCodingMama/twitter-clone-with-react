@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Avatar, Button } from "@material-ui/core";
 import "./TweetBox.css";
-import db from "./firebase";
+import db from "../firebase";
 
 function TweetBox() {
   const [tweetMessage, setTweetMessage] = useState("");
